@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/da96e53cb8.js" crossorigin="anonymous" defer></script>
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
+    <script src="./js/carousel.js" defer></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <title>КупиКота</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top topmenu">
+      <div class="container-lg">
+        <div class="d-flex align-items-center menu-brand">
+          <i class="fa-solid fa-cat cat-icon"></i>
+          <a class="navbar-brand m-2" href="./index.html">КупиКота</a>
+        </div>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#topmenu-links" aria-controls="topmenu-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="topmenu-links">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item menu-item">
+              <a class="nav-link" href="./index.html">Купить кота</a>
+            </li>
+            <li class="nav-item menu-item">
+              <a class="nav-link" href="./gallery.html">Галерея котов</a>
+            </li>
+            <li class="nav-item menu-item">
+              <a class="nav-link" href="./advantages.html">Преимущества</a>
+            </li>
+            <li class="nav-item menu-item">
+              <a href="#" class="nav-link js-open-modal" data-modal="form">Заказать обратный звонок</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="container-fluid header d-flex justify-content-center align-items-center">
+      <div class="header__info">
+        <div class="header__title d-flex align-items-center justify-content-center display-4">
+          <i class="fa-solid fa-cat cat-icon"></i>
+          <span class="m-2">КупиКота</span>
+        </div>
+        <div class="display-5">Продажа и покупка котов от заводчиков</div>
+        <div class="display-5">+7(920)333-33-33</div>
+        <button class="btn form-button header__form-button js-open-modal" data-modal="form">Написать нам</button>
+      </div>
+    </header>
+
+    <div class="container-md p-3">
+      <section class="carousel">
+        <div class="carousel-container">
+          <button class="carousel-left carousel-button"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="image-container">
+            <div class="image-wrapper wrapper-1">
+              <a href="#main" class="card-info d-flex flex-lg-row flex-column">
+                <div class="card-info__descr p-3">
+                  <h2 class="display-6">Купить кота</h2>
+                  <p>Для тех, кто хочет купить породистого или не очень кота.</p>
+                  <p>Большой выбор красивых котиков от заводчиков для вас и вашей семьи.</p>
+                  <p>Наша компания специализируется на продаже породистых котов, и мы гордимся тем, что помогаем счастливым хвостикам найти своих надежных хозяев.</p>
+                </div>
+                <div class="card-info__img-wrap">
+                  <img src="./images/cat-info-1.png" alt="Купить кота" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+
+            <div class="image-wrapper">
+              <a href="#sell" class="card-info d-flex flex-lg-row flex-column">
+                <div class="card-info__descr p-3">
+                  <h2 class="display-6">Продать кота</h2>
+                  <p>Для тех, кто хочет продать или отдать кота.</p>
+                  <p>Если у вашей кошки неожиданно родились котята, не спешите их топить, лучше отнесите нам.</p>
+                  <p>Если ваш код породистый, мы оформим необходимые документы, и продадим его новым хозяевам, получите 50%.</p>
+                </div>
+                <div class="card-info__img-wrap">
+                  <img src="./images/cat-info-2.png" alt="Продать кота" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <button class="carousel-right carousel-button"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <div class="button-container-small">
+          <button class="carousel-left-small carousel-button-small"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-right-small carousel-button-small"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </section>
+
+      <main class="row section mt-3" id="main">
+        <h1 class="display-6 line-top pt-2">Купить кота</h1>
+        <div class="col-md-8 section__text p-3">
+          <div class="mb-4">
+            <p>Если вы мечтаете о пушистом спутнике, который будет радовать вас своим мурчанием и нежностью, вы попали по адресу. Наша компания специализируется на продаже породистых котов, и мы гордимся тем, что помогаем счастливым хвостикам найти своих надежных хозяев.</p>
+            <p>При покупке породистого кота мы работаем только с проверенными заводчиками, чтобы каждый котенок был здоровым и имел все необходимые документы.</p>
+            <p>Разнообразие пород: От мягких британских короткошерстных до изысканных мейн-кунов, у нас есть котята для самых взыскательных клиентов.</p>
+            <p>Мы не просто продаем котят. Мы создаем долгосрочные отношения с нашими клиентами, помогая с вопросами по уходу, кормлению и воспитанию.</p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="btn form-button section__form-button js-open-modal" data-modal="form">Купить кота</button>
+          </div>
+        </div>
+        <div class="col-md-4 section__img p-3">
+          <img src="./images/cat-3.jpg" class="img-fluid img-circle" alt="Купить кота" />
+        </div>
+      </main>
+    </div>
+
+    <div class="container-md">
+      <section class="row section mt-2 mb-3" id="sell">
+        <h2 class="line-top display-6">Продать кота</h2>
+        <div class="col-md-4 section__img p-3">
+          <img src="./images/cat-4.jpg" class="img-fluid img-circle" alt="Продать кота" />
+        </div>
+        <div class="col-md-8 section__text p-3">
+          <div class="mb-5">
+            <p>Если у вашей кошки неожиданно родились котята, не спешите их топить, лучше отнесите нам.</p>
+            <p>Если ваш код породистый, мы оформим необходимые документы, и продадим его новым хозяевам, при этом вы получите 50% от стоимости.</p>
+            <p>Мы проведем ветеринарное обследование, окажем медицинскую помощь, если необходимо, и продадим заботливой семье или пристроим котят в приют.</p>
+            <p>После продажи кота выпейте чаю и съеште мягких французских булок.</p>
+          </div>
+          <div class="d-flex justify-content-center m-3">
+            <button class="btn form-button section__form-button js-open-modal" data-modal="form">Продать кота</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="container-md p-3 footer-cont">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="./index.html" class="d-flex align-items-center footer-brand">
+              <i class="fa-solid fa-cat cat-icon"></i>
+              <div class="footer-brand__link">КупиКота</div>
+            </a>
+            <div>+7(920)333-33-33</div>
+            <div>info@kupikota.ru</div>
+          </div>
+          <div class="col-md-4 d-flex justify-content-md-center mt-2">
+            <ul>
+              <li>
+                <a href="./index.html">Купить кота</a>
+              </li>
+              <li>
+                <a href="./gallery.html">Галерея котов</a>
+              </li>
+              <li>
+                <a href="./advantages.html">Преимущества</a>
+              </li>
+              <li>
+                <a href="#" class="js-open-modal" data-modal="form">Заказать обратный звонок</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 d-flex justify-content-md-end">© 2024, Все права защищены</div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal-form" data-modal="form">
+      <div class="modal-form__cross js-modal-close">&times;</div>
+      <h2 class="display-6 pt-2">Форма заказа</h2>
+      <form class="form">
+        <div class="mb-3">
+          <label for="form-name" class="form-label">Ваше имя:</label>
+          <input type="text" class="form-control p-2" id="form-name" placeholder="Андрей" />
+        </div>
+        <div class="mb-3">
+          <label for="form-phone" class="form-label">Ваш телефон:</label>
+          <input type="tel" class="form-control p-2" id="form-phone" placeholder="+7**********" />
+        </div>
+        <div class="mb-5">
+          <label for="form-text" class="form-label">Сообщение:</label>
+          <textarea type="tel" class="form-control p-2" id="form-text"></textarea>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn form-button modal-form__button p-3">Отправить сообщение, мяу!</button>
+        </div>
+      </form>
+      <div class="modal-form__send-text alert alert-success mt-3">Сообщение отправлено!</div>
+    </div>
+
+    <div class="overlay" id="overlay-modal"></div>
+  </body>
+</html>
